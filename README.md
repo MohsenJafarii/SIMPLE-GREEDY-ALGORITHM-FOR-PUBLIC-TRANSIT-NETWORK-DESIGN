@@ -8,7 +8,7 @@ $$
 
 ### Matrix of Total Direct Passengers:
 $$
-D_S = \{ ds_{ij} \mid i, j \in [1, 2, \ldots, |N|] \}
+D_S = \({ ds_{ij} \mid i, j \in [1, 2, \ldots, |N|] \)}
 $$
                          
 
