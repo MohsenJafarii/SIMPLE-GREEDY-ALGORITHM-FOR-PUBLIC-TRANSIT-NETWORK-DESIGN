@@ -16,6 +16,14 @@ $$
 Bus line whose terminals are located in the nodes 𝑖 and 𝑗. $$N_{l}$$ is the set of nodes connected by the line 𝑙. Bus line 𝑙 contains all nodes that belong to the shortest path between 𝑖 and 𝑗. <br>
 
 Step 1: Prescribe the total number of bus lines NBL in the network. Denote the set of bus lines by 𝑌 (set 𝑚=0).<br>
-Step 2: Identify the highest $$\(ds_{ij}\)$$ pair, set terminals (a, b), find the shortest path between these two nodes, and add line 𝑙 to Y.<br>
+Step 2: Identify the highest $$\(ds_{ij}\)$$ pair, set terminals (a, b), find the shortest path between these two nodes and add line 𝑙 to Y.<br>
 Step 3: Update the matrix DS, without taking into account passenger travel demands that are already satisfied.<br>
-Step 4: If 𝑚=𝑁𝐵𝐿, stop; otherwise, set 𝑚=𝑚+1 and return to Step 2. <br>
+Step 4: If 𝑚=𝑁𝐵𝐿, stop; otherwise, set 𝑚=𝑚+1 and return to Step 2. <be>
+
+Source: 
+Miloš Nikolić, Dušan Teodorović,<br>
+Transit network design by Bee Colony Optimization,<br>
+Expert Systems with Applications,2013 <br>
+https://doi.org/10.1016/j.eswa.2013.05.002.<br>
+(https://www.sciencedirect.com/science/article/pii/S0957417413002881)<br>
+
