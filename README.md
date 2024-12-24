@@ -21,9 +21,9 @@ Step 3: Update the matrix DS, without taking into account passenger travel deman
 Step 4: If 𝑚=𝑁𝐵𝐿, stop; otherwise, set 𝑚=𝑚+1 and return to Step 2. <be>
 
 Source: <br>
-Miloš Nikolić, Dušan Teodorović,<br>
-Transit network design by Bee Colony Optimization,<br>
-Expert Systems with Applications,2013 <br>
+Miloš Nikolić, Dušan Teodorović <br>
+Transit network design by Bee Colony Optimization <br>
+Expert Systems with Applications, 2013 <br>
 https://doi.org/10.1016/j.eswa.2013.05.002.<br>
 https://www.sciencedirect.com/science/article/pii/S0957417413002881<br>
 
