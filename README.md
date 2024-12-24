@@ -13,7 +13,7 @@ $$
                          
 
 ![image](https://github.com/user-attachments/assets/827aa513-b1ce-4c44-8472-54122bae42c0)
-Bus line whose terminals are located in the nodes 𝑖 and 𝑗. $$N_{l}$$ the set of nodes connected by the line 𝑙. Bus line 𝑙 contains all nodes that belong to the shortest path between 𝑖 and 𝑗. <br>
+Bus line whose terminals are located in the nodes 𝑖 and 𝑗. N is the set of nodes connected by the line 𝑙. Bus line 𝑙 contains all nodes that belong to the shortest path between 𝑖 and 𝑗. <br>
 
 Step 1: Prescribe the total number of bus lines NBL in the network. Denote the set of bus lines by 𝑌 (set 𝑚=0).<br>
 Step 2: Identify the highest $$\(ds_{ij}\)$$ pair, set terminals (a, b), find the shortest path between these two nodes, and add line 𝑙 to Y.<br>
