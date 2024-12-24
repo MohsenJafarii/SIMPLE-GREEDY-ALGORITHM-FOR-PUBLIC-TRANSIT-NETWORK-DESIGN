@@ -20,7 +20,7 @@ Step 2: Identify the highest $$\(ds_{ij}\)$$ pair, set terminals (a, b), find th
 Step 3: Update the matrix DS, without taking into account passenger travel demands that are already satisfied.<br>
 Step 4: If 𝑚=𝑁𝐵𝐿, stop; otherwise, set 𝑚=𝑚+1 and return to Step 2. <be>
 
-Source: 
+Source: <br>
 Miloš Nikolić, Dušan Teodorović,<br>
 Transit network design by Bee Colony Optimization,<br>
 Expert Systems with Applications,2013 <br>
