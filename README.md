@@ -1,10 +1,16 @@
 # Simple Greedy Algorithm for Public Transit Network Design
 
-Total Direct Passengers 𝒅𝒔_𝒊𝒋 for bus line 𝒍:<br>
-𝑑𝑠_𝑖𝑗=∑2_(𝑚𝜖𝑁_𝑙)∑2_(𝑛𝜖𝑁_𝑙)𝑑_𝑚𝑛                                                    
 
-Matrix of Total Direct Passengers:<br>
-𝐷𝑆={𝑑𝑠_𝑖𝑗 |𝑖,𝑗𝜖[1,2,…,|𝑁|}                                                
+### Total Direct Passengers $$\(ds_{ij}\)$$ for Bus Line \(l\):
+$$
+ds_{ij} = \sum_{m \in N_l} \sum_{n \in N_l} d_{mn}
+$$
+
+### Matrix of Total Direct Passengers:
+$$
+D_S = \{ ds_{ij} \mid i, j \in [1, 2, \ldots, |N|] \}
+$$
+                         
 
 ![image](https://github.com/user-attachments/assets/827aa513-b1ce-4c44-8472-54122bae42c0)
 Bus line whose terminals are located in the nodes 𝑖 and 𝑗. 𝑁_𝑙 the set of nodes connected by the line 𝑙. Bus line 𝑙 contains all nodes that belong to the shortest path between 𝑖 and 𝑗. <br>
